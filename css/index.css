@@ -1,0 +1,82 @@
+body {
+    background-color: #fff;
+    font-family: YuGothic;
+}
+
+h2 {
+    font-family: Rounded Mplus 1c Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #76CCD5;
+}
+
+header {
+    height: 532px;
+    background: #76CCD5;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header > .logo {
+    display: block;
+    width: 350px;
+    height: 350px;
+    border-radius: 275px;
+    background-color: #fff;
+    opacity: 0.4;
+}
+
+.about {
+    padding: 100px 0;
+}
+
+.about > h3 {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 50px 0;
+}
+
+.info {
+    padding: 100px 0;
+    background-color: #FDF7E7;
+}
+
+.info > h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    align-items: center;
+    color: #76CCD5;
+    position: relative;
+    padding: 0 0 0 13px;
+}
+
+.info > h3::before {
+    content: "";
+    height: 100%;
+    width: 7px;
+    border-radius: 3px;
+    background-color: #76CCD5;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.caution {
+    padding: 100px 0;
+}
+
+.caution > h2 {
+    margin-bottom: 50px;
+}
+
+.caution > p {
+    text-align: center;
+}
