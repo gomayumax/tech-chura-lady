@@ -36,10 +36,25 @@ header > .logo {
     padding: 100px 0;
 }
 
-.about > h3 {
+.about > .text > h3 {
     font-size: 20px;
     line-height: 30px;
     padding: 50px 0;
+}
+
+.about > .text {
+    width: 542px;
+    display: block;
+    margin: auto;
+}
+
+.about > .text > p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.about > .text > .mb-25 {
+    margin-bottom: 25px;
 }
 
 .info {
@@ -47,7 +62,7 @@ header > .logo {
     background-color: #FDF7E7;
 }
 
-.info > h3 {
+.title > h3 {
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -58,7 +73,7 @@ header > .logo {
     padding: 0 0 0 13px;
 }
 
-.info > h3::before {
+.title > h3::before {
     content: "";
     height: 100%;
     width: 7px;
@@ -67,6 +82,13 @@ header > .logo {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.info > .container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .caution {
