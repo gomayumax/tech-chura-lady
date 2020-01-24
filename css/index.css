@@ -198,10 +198,10 @@ li > a > .image-box > img {
 }
 li > a > .text-box > date {
     font-size: 10px;
-    line-height: 18px;
+    line-height: 17px;
     background-color: #B2E2E7;
     display: block;
-    height: 18px;
+    height: 17px;
     width: 130px;
 
     text-align: center;
