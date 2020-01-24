@@ -192,7 +192,7 @@ li > a > .image-box > img {
     width: 94px;
     height: 63px;
     display: block;
-    margin: 12px 12px 12px 0;
+    margin-right: 12px;
     object-fit: cover;
 }
 li > a > .text-box > date {
