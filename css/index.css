@@ -20,7 +20,7 @@ h2 {
     font-family: 'Rounded Mplus 1c Bold';
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 36px;
     text-align: center;
     color: #76CCD5;
@@ -84,7 +84,7 @@ header > .inner-header > .logo > .inner-circle > img {
 }
 
 .about > .inner > .text > h3 {
-    font-size: 20px;
+    font-size: 25px;
     line-height: 30px;
     padding: 50px 0;
     font-weight: normal;
@@ -97,7 +97,7 @@ header > .inner-header > .logo > .inner-circle > img {
 }
 
 .about > .inner > .text > p {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 24px;
 }
 
@@ -113,7 +113,7 @@ header > .inner-header > .logo > .inner-circle > img {
 .title-inner > h3 {
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 27px;
     align-items: center;
     color: #76CCD5;
@@ -151,7 +151,7 @@ header > .inner-header > .logo > .inner-circle > img {
 }
 
 .info > .container > .title > .title-inner > a {
-    font-size: 12px;
+    font-size: 15px;
     width: 50px;
     height: 20px;
     display: block;
@@ -197,7 +197,7 @@ li > a > .image-box > img {
     object-fit: cover;
 }
 li > a > .text-box > date {
-    font-size: 10px;
+    font-size: 13px;
     line-height: 17px;
     background-color: #B2E2E7;
     display: block;
@@ -218,7 +218,7 @@ li > a > .text-box > .title {
 }
 
 li > a > .text-box > .description {
-    font-size: 8px;
+    font-size: 10px;
     line-height: 12px;
     color: #969696;
 }
