@@ -45,27 +45,32 @@ header > .inner-header > .logo {
 }
 
 .about {
+    position: relative;
+
+}
+
+.about > .inner {
     padding: 100px 0;
 }
 
-.about > .text > h3 {
+.about > .inner > .text > h3 {
     font-size: 20px;
     line-height: 30px;
     padding: 50px 0;
 }
 
-.about > .text {
+.about > .inner > .text {
     width: 542px;
     display: block;
     margin: auto;
 }
 
-.about > .text > p {
+.about > .inner > .text > p {
     font-size: 16px;
     line-height: 24px;
 }
 
-.about > .text > .mb-25 {
+.about > .inner > .text > .mb-25 {
     margin-bottom: 25px;
 }
 
@@ -125,4 +130,82 @@ footer > .wave > svg {
     width: 100%;
     height: 55px;
     margin-bottom:-7px;
+}
+
+.about > .fish-group-top {
+    position: absolute;
+    width: 240px;
+    height: 125px;
+    left: -50px;
+}
+
+.about > .fish-group-top > .fish1 {
+    top: 0;
+    left: 0;
+}
+
+.about > .fish-group-top > .fish2 {
+    position: absolute;
+    top: 10px;
+    left: 115px;
+}
+
+.about > .fish-group-top > .fish3 {
+    position: absolute;
+    top: 55px;
+    left: 65px;
+}
+
+
+.about > .fish-group-top > .fish4 {
+    position: absolute;
+    top: 95px;
+    left: 120px;
+}
+
+
+.about > .fish-group-second {
+    position: absolute;
+    width: 240px;
+    height: 125px;
+    right: 0px;
+    bottom: -30px;
+}
+
+.about > .fish-group-second > .fish1 {
+    top: 0;
+    right: 0;
+}
+
+.about > .fish-group-second > .fish2 {
+    position: absolute;
+    top: 0px;
+    right: 54px;
+}
+
+.about > .fish-group-second > .fish3 {
+    position: absolute;
+    top: 45px;
+    right: 90px;
+}
+
+
+.about > .fish-group-second > .fish4 {
+    position: absolute;
+    top: 47px;
+    right: 19px;
+
+}
+
+
+.about > .fish-group-second > .fish5 {
+    position: absolute;
+    bottom: 20px;
+    left: -42px;
+}
+
+.about > .fish-group-second > .fish6 {
+    position: absolute;
+    right: 25px;
+    bottom: 0;
 }
