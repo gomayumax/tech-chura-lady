@@ -179,39 +179,42 @@ header > .inner-header > .logo > .inner-circle > img {
     border-bottom: 1px dashed #76CCD5;
     margin-bottom: 12px;
     padding-bottom: 12px;
+}
 
+.info > .container > .content > ul > li > a {
     display: flex;
 }
 
 .info > .container > .content > ul > li:last-child {
     border-bottom: none;
 }
-li > .image-box > img {
+li > a > .image-box > img {
     width: 94px;
     height: 63px;
     display: block;
     margin: 12px 12px 12px 0;
     object-fit: cover;
 }
-li > .text-box > date {
+li > a > .text-box > date {
     font-size: 10px;
     line-height: 15px;
     background-color: #B2E2E7;
     display: block;
     height: 15px;
+    width: 127px;
     border-radius: 7px;
     color: #fff;
     padding: 0 2px;
 }
 
-li > .text-box > .title {
+li > a > .text-box > .title {
     font-size: 12px;
     line-height: 18px;
     color: #000;
     margin: 7px 0;
 }
 
-li > .text-box > .description {
+li > a > .text-box > .description {
     font-size: 8px;
     line-height: 12px;
     color: #969696;
