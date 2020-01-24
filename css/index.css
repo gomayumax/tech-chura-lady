@@ -87,6 +87,7 @@ header > .inner-header > .logo > .inner-circle > img {
     font-size: 20px;
     line-height: 30px;
     padding: 50px 0;
+    font-weight: normal;
 }
 
 .about > .inner > .text {
@@ -155,7 +156,7 @@ header > .inner-header > .logo > .inner-circle > img {
     height: 20px;
     display: block;
     background-color: #76CCD4;
-    border-radius: 20%;
+    border-radius: 10px;
     color: #fff;
     text-align: center;
     margin-left: auto;
@@ -197,14 +198,16 @@ li > a > .image-box > img {
 }
 li > a > .text-box > date {
     font-size: 10px;
-    line-height: 15px;
+    line-height: 18px;
     background-color: #B2E2E7;
     display: block;
-    height: 15px;
-    width: 127px;
+    height: 18px;
+    width: 130px;
+
+    text-align: center;
     border-radius: 7px;
     color: #fff;
-    padding: 0 2px;
+    padding: 1px 2px;
 }
 
 li > a > .text-box > .title {
