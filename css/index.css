@@ -152,8 +152,8 @@ header > .inner-header > .logo > .inner-circle > img {
 
 .info > .container > .title > .title-inner > a {
     font-size: 15px;
-    width: 50px;
-    height: 23px;
+    width: 55px;
+    height: 25px;
     display: block;
     background-color: #76CCD4;
     border-radius: 10px;
@@ -161,6 +161,7 @@ header > .inner-header > .logo > .inner-circle > img {
     text-align: center;
     margin-left: auto;
     margin-top: auto;
+    padding: 1px;
 }
 
 .info > .container > .content {
