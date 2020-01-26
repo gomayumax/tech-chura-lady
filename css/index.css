@@ -60,10 +60,8 @@ header > .inner-header > .logo > .inner-circle {
     background-color: #fff;
 }
 header > .inner-header > .logo > .inner-circle > img {
-    width: 280px;
-    height: 280px;
-    border-radius: 50%;
-
+    width: 265px;
+    height: 201px;
 }
 
 .wave > svg {
