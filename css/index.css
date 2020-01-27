@@ -42,8 +42,8 @@ header > .inner-header {
 
 header > .inner-header > .logo {
     display: block;
-    width: 350px;
-    height: 350px;
+    width: 380px;
+    height: 380px;
     border-radius: 50%;
     background-color: #BDE6EA;
     display: flex;
@@ -51,8 +51,8 @@ header > .inner-header > .logo {
     justify-content: center;
 }
 header > .inner-header > .logo > .inner-circle {
-    width: 300px;
-    height: 300px;
+    width: 330px;
+    height: 330px;
     border-radius: 50%;
     display: flex;
     align-items: center;
