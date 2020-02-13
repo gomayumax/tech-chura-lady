@@ -84,12 +84,6 @@ header > .inner-header > .logo > .inner-circle > img {
     animation: bubble 10s ease-in infinite;
 }
 
-.bubble:nth-child(1) {
-    width: 20px;
-    height: 20px;
-    left: 30%;
-    animation-duration: 6s;
-}
 
 .bubble:nth-child(2) {
     left: 20%;
@@ -97,24 +91,45 @@ header > .inner-header > .logo > .inner-circle > img {
 }
 
 .bubble:nth-child(3) {
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     left: 30%;
     animation-duration: 7s;
 }
 
 .bubble:nth-child(4) {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     left: 67%;
     animation-duration: 6s;
 }
 
 .bubble:nth-child(5) {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     left: 90%;
     animation-duration: 4.5s;
+}
+
+.bubble:nth-child(6) {
+    width: 30px;
+    height: 30px;
+    left: 25%;
+    animation-duration: 5s;
+}
+
+.bubble:nth-child(7) {
+    width: 50px;
+    height: 50px;
+    left: 10%;
+    animation-duration: 4.5s;
+}
+
+.bubble:nth-child(8) {
+    width: 45px;
+    height: 45px;
+    left: 73%;
+    animation-duration: 8s;
 }
 
 @keyframes bubble {
@@ -129,8 +144,6 @@ header > .inner-header > .logo > .inner-circle > img {
         bottom: 1000px;
     }
 }
-
-
 
 .wave > svg {
     position: absolute;
